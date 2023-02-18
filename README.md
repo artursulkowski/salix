@@ -43,7 +43,7 @@ Home assistant gives great leverage for further development:
 
 ### UX
 Exemplary Home Assistant dashboard with active charging session:
-![UX Dashboard](UX%20design/Dashboard%2001%20charging%20view.png)
+![UX Dashboard](uxdesign/dashboard_01_charging.png)
 
 ### Architecture
 ```mermaid
@@ -72,6 +72,8 @@ Non-Salix integrations:
 * **Car Status** - Provides information about EV's SOC - e.g. [Hyundai-Kia-Connect](https://github.com/Hyundai-Kia-Connect/kia_uvo)
 * **EVSE** - Integration for car's charger. Provides information about current charging session. 
 
+## Extra Documentation
 
+### [Home Assistant Tips and Tricks](devdocs/HA_TIPS_TRICKS.md)
 
 
