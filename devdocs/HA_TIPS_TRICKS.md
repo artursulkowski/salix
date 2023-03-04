@@ -54,6 +54,11 @@ Add root as user:
 "postCreateCommand": "script/setup",
 ```  
 
+In case you want to use non default podman machine ( default is: podman-machine-default): 
+``` bash
+podman system connection default my-new-machine
+```
+
 ### Maximum open files error
 Default configuration in podman and Home Assistant devcontainer has limited number of maximum open files (in my case it was 1024).  
 This resulted in unstable operations and multiple `too many open files` errors.  
